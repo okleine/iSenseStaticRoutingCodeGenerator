@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:tn="http://www.itm.uni-luebeck.de/users/kleine/isense-static-routing"
+    targetNamespace="http://www.itm.uni-luebeck.de/users/kleine/isense-static-routing">
+
+    <xs:complexType name="ReachableNodesType">
+        <xs:sequence>
+            <xs:element name="node" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="RoutingEntryType">
+        <xs:all>
+            <xs:element name="nextHop" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="reachableNodes" type="tn:ReachableNodesType"/>
+        </xs:all>
+    </xs:complexType>
+
+	<xs:complexType name="RouterConfigType">
+		<xs:sequence>
+            <xs:element name="router" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="defaultRoute" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="routingEntry" type="tn:RoutingEntryType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+    <xs:element name="networkRoutingConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="routerConfig" type="tn:RouterConfigType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+</xs:schema>

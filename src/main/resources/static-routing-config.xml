@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ns:networkRoutingConfig xsi:schemaLocation="http://www.itm.uni-luebeck.de/users/kleine/isense-static-routing static-routing.xsd"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns:ns="http://www.itm.uni-luebeck.de/users/kleine/isense-static-routing">
+
+    <!--Configuration for 0x2128-->
+    <routerConfig>
+        <router>2128</router>
+        <defaultRoute>212c</defaultRoute>
+    </routerConfig>
+
+    <!--Configuration for 0x212c-->
+    <routerConfig>
+        <router>212c</router>
+        <defaultRoute>2130</defaultRoute>
+        <routingEntry>
+            <nextHop>2128</nextHop>
+            <reachableNodes>
+                <node>2128</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2100</nextHop>
+            <reachableNodes>
+                <node>2100</node>
+                <node>2104</node>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>213c</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+
+    <!--Configuration for 0x2130-->
+    <routerConfig>
+        <router>2130</router>
+        <defaultRoute>2134</defaultRoute>
+        <routingEntry>
+            <nextHop>212c</nextHop>
+            <reachableNodes>
+                <node>2128</node>
+                <node>212c</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2100</nextHop>
+            <reachableNodes>
+                <node>2100</node>
+                <node>2104</node>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+
+    <!--Configuration for 0x2134-->
+    <routerConfig>
+        <router>2134</router>
+        <defaultRoute>158d0000144246</defaultRoute>
+        <routingEntry>
+            <nextHop>2130</nextHop>
+            <reachableNodes>
+                <node>2128</node>
+                <node>212c</node>
+                <node>2130</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2138</nextHop>
+            <reachableNodes>
+                <node>2138</node>
+                <node>213c</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2104</nextHop>
+            <reachableNodes>
+                <node>2100</node>
+                <node>2104</node>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x001507201001-->
+    <routerConfig>
+        <router>158d0000144246</router>
+        <defaultRoute>null</defaultRoute>
+        <routingEntry>
+            <nextHop>2134</nextHop>
+            <reachableNodes>
+                <node>2128</node>
+                <node>212c</node>
+                <node>2130</node>
+                <node>2134</node>
+                <node>2138</node>
+                <node>213c</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2104</nextHop>
+            <reachableNodes>
+                <node>2100</node>
+                <node>2104</node>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2138-->
+    <routerConfig>
+        <router>2138</router>
+        <defaultRoute>2134</defaultRoute>
+        <routingEntry>
+            <nextHop>2108</nextHop>
+            <reachableNodes>
+                <node>2100</node>
+                <node>2104</node>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>213c</nextHop>
+            <reachableNodes>
+                <node>213c</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x213c-->
+    <routerConfig>
+        <router>213c</router>
+        <defaultRoute>2138</defaultRoute>
+        <routingEntry>
+            <nextHop>2110</nextHop>
+            <reachableNodes>
+                <node>2100</node>
+                <node>2104</node>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2140-->
+    <routerConfig>
+        <router>2140</router>
+        <defaultRoute>2118</defaultRoute>
+        <routingEntry>
+            <nextHop>2144</nextHop>
+            <reachableNodes>
+                <node>2144</node>
+                <node>2120</node>
+                <node>2124</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2144-->
+    <routerConfig>
+        <router>2144</router>
+        <defaultRoute>2140</defaultRoute>
+        <routingEntry>
+            <nextHop>2120</nextHop>
+            <reachableNodes>
+                <node>2120</node>
+                <node>2124</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2100-->
+    <routerConfig>
+        <router>2100</router>
+        <defaultRoute>212c</defaultRoute>
+        <routingEntry>
+            <nextHop>2104</nextHop>
+            <reachableNodes>
+                <node>2104</node>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2104-->
+    <routerConfig>
+        <router>2104</router>
+        <defaultRoute>158d0000144246</defaultRoute>
+        <routingEntry>
+            <nextHop>2100</nextHop>
+            <reachableNodes>
+                <node>2100</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2108</nextHop>
+            <reachableNodes>
+                <node>2108</node>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2108-->
+    <routerConfig>
+        <router>2108</router>
+        <defaultRoute>2104</defaultRoute>
+        <routingEntry>
+            <nextHop>210c</nextHop>
+            <reachableNodes>
+                <node>210c</node>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x210c-->
+    <routerConfig>
+        <router>210c</router>
+        <defaultRoute>2108</defaultRoute>
+        <routingEntry>
+            <nextHop>2110</nextHop>
+            <reachableNodes>
+                <node>2110</node>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2110-->
+    <routerConfig>
+        <router>2110</router>
+        <defaultRoute>213c</defaultRoute>
+        <routingEntry>
+            <nextHop>2114</nextHop>
+            <reachableNodes>
+                <node>2114</node>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2114-->
+    <routerConfig>
+        <router>2114</router>
+        <defaultRoute>2110</defaultRoute>
+        <routingEntry>
+            <nextHop>211c</nextHop>
+            <reachableNodes>
+                <node>2118</node>
+                <node>211c</node>
+                <node>2120</node>
+                <node>2124</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 2118-->
+    <routerConfig>
+        <router>2118</router>
+        <defaultRoute>2114</defaultRoute>
+        <routingEntry>
+            <nextHop>211c</nextHop>
+            <reachableNodes>
+                <node>211c</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2120</nextHop>
+            <reachableNodes>
+                <node>2120</node>
+                <node>2124</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2140</nextHop>
+            <reachableNodes>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+
+    <!--Configuration for 0x211c-->
+    <routerConfig>
+        <router>211c</router>
+        <defaultRoute>2114</defaultRoute>
+        <routingEntry>
+            <nextHop>2118</nextHop>
+            <reachableNodes>
+                <node>2118</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2124</nextHop>
+            <reachableNodes>
+                <node>2120</node>
+                <node>2124</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+    
+    <!--Configuration for 0x2120-->
+    <routerConfig>
+        <router>2120</router>
+        <defaultRoute>2118</defaultRoute>
+        <routingEntry>
+            <nextHop>2144</nextHop>
+            <reachableNodes>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+        <routingEntry>
+            <nextHop>2124</nextHop>
+            <reachableNodes>
+                <node>2124</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+
+    <!--Configuration for 0x2124-->
+    <routerConfig>
+        <router>2124</router>
+        <defaultRoute>211c</defaultRoute>
+        <routingEntry>
+            <nextHop>2120</nextHop>
+            <reachableNodes>
+                <node>2120</node>
+                <node>2140</node>
+                <node>2144</node>
+            </reachableNodes>
+        </routingEntry>
+    </routerConfig>
+</ns:networkRoutingConfig>

@@ -1,0 +1,2 @@
+This application generates the soure file for static routing based on a
+configuration given as static-routing-config.xml in the resources folder
